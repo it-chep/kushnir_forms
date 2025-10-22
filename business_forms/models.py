@@ -107,7 +107,6 @@ class NewProduct(models.Model):
     BOUGHT_PRODUCTS_CHOICES = [
         ('yes', 'Да'),
         ('no', 'Нет'),
-        ('another', 'У других докторов в соцсетях')
     ]
     bought_products = models.CharField(
         max_length=100,
